@@ -1,10 +1,8 @@
 package com.panda.user.pandafurnitureapp;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
@@ -30,10 +28,10 @@ public class PermissionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_permission);
 
         if(Build.VERSION.SDK_INT<23){
-
+            goIntroActivity();
         } else {
             if(checkAndRequestPermissions()){
-
+                goIntroActivity();
             }
         }
     }
@@ -81,7 +79,7 @@ public class PermissionActivity extends AppCompatActivity {
         }
 
         if(isAllGranted){
-
+            goIntroActivity();
         }else{
             showPermissionDialog();
         }
@@ -112,6 +110,12 @@ public class PermissionActivity extends AppCompatActivity {
             }
         });
         dialog.show();
+    }
+
+    private void goIntroActivity(){
+        Intent intent = new Intent(this,IntroActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     private  void goAppSettingActivity(){
