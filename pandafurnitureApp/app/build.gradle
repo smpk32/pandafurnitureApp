@@ -19,15 +19,24 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
     implementation 'com.android.support:support-v4:28.0.0-rc02'
     implementation 'com.android.support:design:28.0.0-rc02'
+=======
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+>>>>>>> sangmin's
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+<<<<<<< HEAD
     implementation 'com.android.support:recyclerview-v7:28.0.0-rc02'
     //noinspection GradleCompatible
     implementation 'com.android.support:cardview-v7:28.0.0-rc02'
@@ -43,4 +52,28 @@ dependencies {
     implementation 'com.google.android.gms:play-services-base:10.2.6'
     implementation 'com.google.android.gms:play-services-maps:10.2.6'
     implementation 'com.google.android.gms:play-services:12.0.1'
+=======
+
+
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    implementation 'org.parceler:parceler-api:1.1.11'
+    annotationProcessor 'org.parceler:parceler:1.1.11'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'com.google.android.gms:play-services-base:10.2.6'
+    implementation 'com.google.android.gms:play-services-maps:10.2.6'
+    implementation 'com.google.android.gms:play-services:12.0.1'
+
+
+>>>>>>> sangmin's
 }
