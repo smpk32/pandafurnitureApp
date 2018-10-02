@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        memberInfoItem = ((MyApp)getApplication()).getMemberInfoItem();
+        //memberInfoItem = ((MyApp)getApplication()).getMemberInfoItem();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -75,19 +75,19 @@ public class MainActivity extends AppCompatActivity
                 //GoLib.getInstance().goProfileActivity(MainActivity.this);
             }
         });
-        if(StringLib.getInstance().isBlank(memberInfoItem.memberIconFilename)){
-            Picasso.with(this).load(R.drawable.ic_person).into(profileIconImage);
-        }else {
-            Picasso.with(this).load(RemoteService.MEMBER_ICON_URL + memberInfoItem.memberIconFilename).into(profileIconImage);
-        }
-
-        TextView nameText = (TextView)headerLayout.findViewById(R.id.name);
-
-        if(memberInfoItem.name == null || memberInfoItem.name.equals("")){
-            nameText.setText(R.string.name_need);
-        }else{
-            nameText.setText(memberInfoItem.name);
-        }
+//        if(StringLib.getInstance().isBlank(memberInfoItem.memberIconFilename)){
+ //           Picasso.with(this).load(R.drawable.ic_person).into(profileIconImage);
+ //       }else {
+//            Picasso.with(this).load(RemoteService.MEMBER_ICON_URL + memberInfoItem.memberIconFilename).into(profileIconImage);
+//        }
+//
+//        TextView nameText = (TextView)headerLayout.findViewById(R.id.name);
+//
+//        if(memberInfoItem.name == null || memberInfoItem.name.equals("")){
+//            nameText.setText(R.string.name_need);
+//        }else{
+//            nameText.setText(memberInfoItem.name);
+//        }
     }
 
     @Override
@@ -104,17 +104,17 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item){
         int id = item.getItemId();
 
-        if(id == R.id.nav_list){
-            //GoLib.getInstance().goFragment(getSupportFragmentManager(),R.id.content_main, BestFoodListFragment.newInstance());
-        }else if (id == R.id.nav_map){
-            //GoLib.getInstance().goFragment(getSupportFragmentManager(),R.id.content_main,BestFoodMapFragment.newInstance());
-        }else if (id == R.id.nav_keep){
-            //GoLib.getInstance().goFragment(getSupportFragmentManager(),R.id.content_main,BestFoodKeepFragment.newInstance());
-        }else if (id == R.id.nav_register){
-            // GoLib.getInstance().goBestFoodRegisterActivity(this);
-        }else if (id == R.id.nav_profile){
-           // GoLib.getInstance().goProfileActivity(this);
-        }
+//        if(id == R.id.nav_list){
+//            //GoLib.getInstance().goFragment(getSupportFragmentManager(),R.id.content_main, BestFoodListFragment.newInstance());
+//        }else if (id == R.id.nav_map){
+//            //GoLib.getInstance().goFragment(getSupportFragmentManager(),R.id.content_main,BestFoodMapFragment.newInstance());
+//        }else if (id == R.id.nav_keep){
+//            //GoLib.getInstance().goFragment(getSupportFragmentManager(),R.id.content_main,BestFoodKeepFragment.newInstance());
+//        }else if (id == R.id.nav_register){
+//            // GoLib.getInstance().goBestFoodRegisterActivity(this);
+//        }else if (id == R.id.nav_profile){
+//           // GoLib.getInstance().goProfileActivity(this);
+//        }
 
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -1,0 +1,730 @@
+2018-08-31 16:20:32 6688 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-08-31 16:20:32 6688 [Note] InnoDB: Uses event mutexes
+2018-08-31 16:20:32 6688 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-08-31 16:20:32 6688 [Note] InnoDB: Number of pools: 1
+2018-08-31 16:20:32 6688 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-08-31 16:20:32 6688 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-08-31 16:20:32 6688 [Note] InnoDB: Completed initialization of buffer pool
+2018-08-31 16:20:32 6688 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-08-31 16:20:33 6688 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-08-31 16:20:33 6688 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-08-31 16:20:33 6688 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-08-31 16:20:33 6688 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-08-31 16:20:33 6688 [Note] InnoDB: 5.7.23 started; log sequence number 1619987
+2018-08-31 16:20:33 9572 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-08-31 16:20:33 9572 [Note] InnoDB: Buffer pool(s) load completed at 180831 16:20:33
+2018-08-31 16:20:33 6688 [Note] Plugin 'FEEDBACK' is disabled.
+2018-08-31 16:20:33 6688 [Note] Server socket created on IP: '::'.
+2018-08-31 16:20:33 6688 [Note] Reading of all Master_info entries succeded
+2018-08-31 16:20:33 6688 [Note] Added new Master_info '' to hash table
+2018-08-31 16:20:33 6688 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-01  1:48:02 10048 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-01  1:48:02 10048 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-01  1:48:02 4220 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-01  1:48:02 10048 [Note] InnoDB: Starting shutdown...
+2018-09-01  1:48:02 9572 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-01  1:48:02 9572 [Note] InnoDB: Buffer pool(s) dump completed at 180901  1:48:02
+2018-09-01  1:48:03 10048 [Note] InnoDB: Shutdown completed; log sequence number 1646986
+2018-09-01  1:48:03 10048 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-01  1:48:03 10048 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-01  1:48:52 4144 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-01  1:48:52 4144 [Note] InnoDB: Uses event mutexes
+2018-09-01  1:48:52 4144 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-01  1:48:52 4144 [Note] InnoDB: Number of pools: 1
+2018-09-01  1:48:52 4144 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-01  1:48:52 4144 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-01  1:48:52 4144 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-01  1:48:52 4144 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-01  1:48:52 4144 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-01  1:48:52 4144 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-01  1:48:52 4144 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-01  1:48:52 4144 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-01  1:48:52 4144 [Note] InnoDB: Waiting for purge to start
+2018-09-01  1:48:52 4144 [Note] InnoDB: 5.7.23 started; log sequence number 1646986
+2018-09-01  1:48:52 4884 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-01  1:48:52 4144 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-01  1:48:52 4884 [Note] InnoDB: Buffer pool(s) load completed at 180901  1:48:52
+2018-09-01  1:48:52 4144 [Note] Server socket created on IP: '::'.
+2018-09-01  1:48:52 4144 [Note] Reading of all Master_info entries succeded
+2018-09-01  1:48:52 4144 [Note] Added new Master_info '' to hash table
+2018-09-01  1:48:52 4144 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-01  2:05:19 4980 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-01  2:05:19 4980 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-01  2:05:19 4852 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-01  2:05:19 4980 [Note] InnoDB: Starting shutdown...
+2018-09-01  2:05:19 4884 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-01  2:05:19 4884 [Note] InnoDB: Buffer pool(s) dump completed at 180901  2:05:19
+2018-09-01  2:05:21 4980 [Note] InnoDB: Shutdown completed; log sequence number 1647014
+2018-09-01  2:05:21 4980 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-01  2:05:21 4980 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-01  2:05:40 4208 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-01  2:05:40 4208 [Note] InnoDB: Uses event mutexes
+2018-09-01  2:05:40 4208 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-01  2:05:40 4208 [Note] InnoDB: Number of pools: 1
+2018-09-01  2:05:40 4208 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-01  2:05:40 4208 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-01  2:05:40 4208 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-01  2:05:40 4208 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-01  2:05:40 4208 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-01  2:05:40 4208 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-01  2:05:40 4208 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-01  2:05:40 4208 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-01  2:05:40 4208 [Note] InnoDB: Waiting for purge to start
+2018-09-01  2:05:40 4208 [Note] InnoDB: 5.7.23 started; log sequence number 1647014
+2018-09-01  2:05:40 4968 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-01  2:05:40 4968 [Note] InnoDB: Buffer pool(s) load completed at 180901  2:05:40
+2018-09-01  2:05:40 4208 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-01  2:05:40 4208 [Note] Server socket created on IP: '::'.
+2018-09-01  2:05:40 4208 [Note] Reading of all Master_info entries succeded
+2018-09-01  2:05:40 4208 [Note] Added new Master_info '' to hash table
+2018-09-01  2:05:40 4208 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-01  2:23:28 5084 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-01  2:23:28 5084 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-01  2:23:28 4836 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-01  2:23:28 5084 [Note] InnoDB: Starting shutdown...
+2018-09-01  2:23:28 4968 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-01  2:23:28 4968 [Note] InnoDB: Buffer pool(s) dump completed at 180901  2:23:28
+2018-09-01  2:23:30 5084 [Note] InnoDB: Shutdown completed; log sequence number 1647042
+2018-09-01  2:23:30 5084 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-01  2:23:30 5084 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-04 21:03:32 4216 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-04 21:03:32 4216 [Note] InnoDB: Uses event mutexes
+2018-09-04 21:03:32 4216 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-04 21:03:32 4216 [Note] InnoDB: Number of pools: 1
+2018-09-04 21:03:32 4216 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-04 21:03:32 4216 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-04 21:03:32 4216 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-04 21:03:32 4216 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-04 21:03:32 4216 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-04 21:03:32 4216 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-04 21:03:32 4216 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-04 21:03:32 4216 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-04 21:03:32 4216 [Note] InnoDB: Waiting for purge to start
+2018-09-04 21:03:32 4216 [Note] InnoDB: 5.7.23 started; log sequence number 1647042
+2018-09-04 21:03:32 7780 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-04 21:03:32 7780 [Note] InnoDB: Buffer pool(s) load completed at 180904 21:03:32
+2018-09-04 21:03:32 4216 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-04 21:03:32 4216 [Note] Server socket created on IP: '::'.
+2018-09-04 21:03:33 4216 [Note] Reading of all Master_info entries succeded
+2018-09-04 21:03:33 4216 [Note] Added new Master_info '' to hash table
+2018-09-04 21:03:33 4216 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-04 22:46:05 8020 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-04 22:46:05 8020 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-04 22:46:05 7728 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-04 22:46:05 8020 [Note] InnoDB: Starting shutdown...
+2018-09-04 22:46:05 7780 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-04 22:46:05 7780 [Note] InnoDB: Buffer pool(s) dump completed at 180904 22:46:05
+2018-09-04 22:46:06 8020 [Note] InnoDB: Shutdown completed; log sequence number 1647070
+2018-09-04 22:46:06 8020 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-04 22:46:06 8020 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-05 20:13:28 4456 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-05 20:13:28 4456 [Note] InnoDB: Uses event mutexes
+2018-09-05 20:13:28 4456 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-05 20:13:28 4456 [Note] InnoDB: Number of pools: 1
+2018-09-05 20:13:28 4456 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-05 20:13:28 4456 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-05 20:13:28 4456 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-05 20:13:28 4456 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-05 20:13:29 4456 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-05 20:13:29 4456 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-05 20:13:29 4456 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-05 20:13:29 4456 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-05 20:13:29 4456 [Note] InnoDB: Waiting for purge to start
+2018-09-05 20:13:29 4456 [Note] InnoDB: 5.7.23 started; log sequence number 1647070
+2018-09-05 20:13:29 4260 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-05 20:13:29 4260 [Note] InnoDB: Buffer pool(s) load completed at 180905 20:13:29
+2018-09-05 20:13:29 4456 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-05 20:13:29 4456 [Note] Server socket created on IP: '::'.
+2018-09-05 20:13:29 4456 [Note] Reading of all Master_info entries succeded
+2018-09-05 20:13:29 4456 [Note] Added new Master_info '' to hash table
+2018-09-05 20:13:29 4456 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-05 21:04:03 5164 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-05 21:04:03 5164 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-05 21:04:03 5044 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-05 21:04:03 5164 [Note] InnoDB: Starting shutdown...
+2018-09-05 21:04:03 4260 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-05 21:04:03 4260 [Note] InnoDB: Buffer pool(s) dump completed at 180905 21:04:03
+2018-09-05 21:04:04 5164 [Note] InnoDB: Shutdown completed; log sequence number 1647098
+2018-09-05 21:04:04 5164 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-05 21:04:04 5164 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-06 10:12:33 4276 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-06 10:12:33 4276 [Note] InnoDB: Uses event mutexes
+2018-09-06 10:12:33 4276 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-06 10:12:33 4276 [Note] InnoDB: Number of pools: 1
+2018-09-06 10:12:33 4276 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-06 10:12:33 4276 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-06 10:12:33 4276 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-06 10:12:33 4276 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-06 10:12:34 4276 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-06 10:12:34 4276 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-06 10:12:34 4276 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-06 10:12:34 4276 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-06 10:12:34 4276 [Note] InnoDB: Waiting for purge to start
+2018-09-06 10:12:34 4276 [Note] InnoDB: 5.7.23 started; log sequence number 1647098
+2018-09-06 10:12:34 800 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-06 10:12:34 800 [Note] InnoDB: Buffer pool(s) load completed at 180906 10:12:34
+2018-09-06 10:12:34 4276 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-06 10:12:34 4276 [Note] Server socket created on IP: '::'.
+2018-09-06 10:12:34 4276 [Note] Reading of all Master_info entries succeded
+2018-09-06 10:12:34 4276 [Note] Added new Master_info '' to hash table
+2018-09-06 10:12:34 4276 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-06 13:03:26 6440 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-06 13:03:26 6440 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-06 13:03:26 3860 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-06 13:03:26 6440 [Note] InnoDB: Starting shutdown...
+2018-09-06 13:03:26 800 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-06 13:03:26 800 [Note] InnoDB: Buffer pool(s) dump completed at 180906 13:03:26
+2018-09-06 13:03:27 6440 [Note] InnoDB: Shutdown completed; log sequence number 1647151
+2018-09-06 13:03:27 6440 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-06 13:03:27 6440 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-06 13:03:55 4204 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-06 13:03:55 4204 [Note] InnoDB: Uses event mutexes
+2018-09-06 13:03:55 4204 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-06 13:03:55 4204 [Note] InnoDB: Number of pools: 1
+2018-09-06 13:03:55 4204 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-06 13:03:55 4204 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-06 13:03:55 4204 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-06 13:03:55 4204 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-06 13:03:55 4204 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-06 13:03:55 4204 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-06 13:03:55 4204 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-06 13:03:55 4204 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-06 13:03:55 4204 [Note] InnoDB: Waiting for purge to start
+2018-09-06 13:03:55 4204 [Note] InnoDB: 5.7.23 started; log sequence number 1647151
+2018-09-06 13:03:55 4988 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-06 13:03:55 4988 [Note] InnoDB: Buffer pool(s) load completed at 180906 13:03:55
+2018-09-06 13:03:55 4204 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-06 13:03:55 4204 [Note] Server socket created on IP: '::'.
+2018-09-06 13:03:56 4204 [Note] Reading of all Master_info entries succeded
+2018-09-06 13:03:56 4204 [Note] Added new Master_info '' to hash table
+2018-09-06 13:03:56 4204 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-06 13:09:15 5036 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-06 13:09:15 5036 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-06 13:09:15 4920 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-06 13:09:15 5036 [Note] InnoDB: Starting shutdown...
+2018-09-06 13:09:15 4988 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-06 13:09:15 4988 [Note] InnoDB: Buffer pool(s) dump completed at 180906 13:09:15
+2018-09-06 13:09:16 5036 [Note] InnoDB: Shutdown completed; log sequence number 1647179
+2018-09-06 13:09:16 5036 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-06 13:09:16 5036 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-06 15:57:13 4236 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-06 15:57:13 4236 [Note] InnoDB: Uses event mutexes
+2018-09-06 15:57:13 4236 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-06 15:57:13 4236 [Note] InnoDB: Number of pools: 1
+2018-09-06 15:57:13 4236 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-06 15:57:13 4236 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-06 15:57:13 4236 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-06 15:57:13 4236 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-06 15:57:13 4236 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-06 15:57:13 4236 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-06 15:57:13 4236 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-06 15:57:13 4236 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-06 15:57:13 4236 [Note] InnoDB: Waiting for purge to start
+2018-09-06 15:57:13 4236 [Note] InnoDB: 5.7.23 started; log sequence number 1647179
+2018-09-06 15:57:13 4940 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-06 15:57:13 4236 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-06 15:57:13 4940 [Note] InnoDB: Buffer pool(s) load completed at 180906 15:57:13
+2018-09-06 15:57:13 4236 [Note] Server socket created on IP: '::'.
+2018-09-06 15:57:13 4236 [Note] Reading of all Master_info entries succeded
+2018-09-06 15:57:13 4236 [Note] Added new Master_info '' to hash table
+2018-09-06 15:57:13 4236 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-07 19:03:30 428 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-07 19:03:30 428 [Note] InnoDB: Uses event mutexes
+2018-09-07 19:03:30 428 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-07 19:03:30 428 [Note] InnoDB: Number of pools: 1
+2018-09-07 19:03:30 428 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-07 19:03:30 428 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-07 19:03:30 428 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-07 19:03:30 428 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-07 19:03:30 428 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1647198
+2018-09-07 19:03:31 428 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-07 19:03:31 428 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-07 19:03:31 428 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-07 19:03:31 428 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-07 19:03:31 428 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-07 19:03:31 428 [Note] InnoDB: Waiting for purge to start
+2018-09-07 19:03:31 428 [Note] InnoDB: 5.7.23 started; log sequence number 1647207
+2018-09-07 19:03:31 4856 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-07 19:03:31 4856 [Note] InnoDB: Buffer pool(s) load completed at 180907 19:03:31
+2018-09-07 19:03:31 428 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-07 19:03:31 428 [Note] Server socket created on IP: '::'.
+2018-09-07 19:03:31 428 [Note] Reading of all Master_info entries succeded
+2018-09-07 19:03:31 428 [Note] Added new Master_info '' to hash table
+2018-09-07 19:03:31 428 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-07 20:47:20 4908 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-07 20:47:20 4908 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-07 20:47:20 4788 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-07 20:47:20 4908 [Note] InnoDB: Starting shutdown...
+2018-09-07 20:47:20 4856 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-07 20:47:20 4856 [Note] InnoDB: Buffer pool(s) dump completed at 180907 20:47:20
+2018-09-07 23:47:24 4908 [Note] InnoDB: Shutdown completed; log sequence number 1647244
+2018-09-07 23:47:24 4908 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-07 23:47:24 4908 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-10 21:30:49 4200 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-10 21:30:49 4200 [Note] InnoDB: Uses event mutexes
+2018-09-10 21:30:49 4200 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-10 21:30:49 4200 [Note] InnoDB: Number of pools: 1
+2018-09-10 21:30:49 4200 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-10 21:30:49 4200 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-10 21:30:49 4200 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-10 21:30:49 4200 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-10 21:30:49 4200 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-10 21:30:49 4200 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-10 21:30:49 4200 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-10 21:30:49 4200 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-10 21:30:49 4200 [Note] InnoDB: Waiting for purge to start
+2018-09-10 21:30:49 4200 [Note] InnoDB: 5.7.23 started; log sequence number 1647244
+2018-09-10 21:30:49 940 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-10 21:30:49 940 [Note] InnoDB: Buffer pool(s) load completed at 180910 21:30:49
+2018-09-10 21:30:49 4200 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-10 21:30:50 4200 [Note] Server socket created on IP: '::'.
+2018-09-10 21:30:50 4200 [Note] Reading of all Master_info entries succeded
+2018-09-10 21:30:50 4200 [Note] Added new Master_info '' to hash table
+2018-09-10 21:30:50 4200 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-14 20:34:33 4604 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-14 20:34:33 4604 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-14 20:34:33 4472 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-14 20:34:33 4604 [Note] InnoDB: Starting shutdown...
+2018-09-14 20:34:33 4512 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-14 20:34:33 4512 [Note] InnoDB: Buffer pool(s) dump completed at 180914 20:34:33
+2018-09-14 20:34:34 4604 [Note] InnoDB: Shutdown completed; log sequence number 1647328
+2018-09-14 20:34:34 4604 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-14 20:34:34 4604 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-14 20:35:04 4364 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-14 20:35:04 4364 [Note] InnoDB: Uses event mutexes
+2018-09-14 20:35:04 4364 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-14 20:35:04 4364 [Note] InnoDB: Number of pools: 1
+2018-09-14 20:35:04 4364 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-14 20:35:04 4364 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-14 20:35:04 4364 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-14 20:35:05 4364 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-14 20:35:05 4364 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-14 20:35:05 4364 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-14 20:35:05 4364 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-14 20:35:05 4364 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-14 20:35:05 4364 [Note] InnoDB: Waiting for purge to start
+2018-09-14 20:35:05 4364 [Note] InnoDB: 5.7.23 started; log sequence number 1647328
+2018-09-14 20:35:05 5336 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-14 20:35:05 5336 [Note] InnoDB: Buffer pool(s) load completed at 180914 20:35:05
+2018-09-14 20:35:05 4364 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-14 20:35:05 4364 [Note] Server socket created on IP: '::'.
+2018-09-14 20:35:05 4364 [Note] Reading of all Master_info entries succeded
+2018-09-14 20:35:05 4364 [Note] Added new Master_info '' to hash table
+2018-09-14 20:35:05 4364 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-15  0:36:59 2556 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-15  0:36:59 2556 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-15  0:36:59 7152 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-15  0:36:59 2556 [Note] InnoDB: Starting shutdown...
+2018-09-15  0:36:59 5336 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-15  0:36:59 5336 [Note] InnoDB: Buffer pool(s) dump completed at 180915  0:36:59
+2018-09-15  0:37:00 2556 [Note] InnoDB: Shutdown completed; log sequence number 1647356
+2018-09-15  0:37:00 2556 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-15  0:37:00 2556 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-16 11:55:04 4216 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-16 11:55:04 4216 [Note] InnoDB: Uses event mutexes
+2018-09-16 11:55:04 4216 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-16 11:55:05 4216 [Note] InnoDB: Number of pools: 1
+2018-09-16 11:55:05 4216 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-16 11:55:05 4216 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-16 11:55:05 4216 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-16 11:55:05 4216 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-16 11:55:05 4216 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-16 11:55:05 4216 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-16 11:55:05 4216 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-16 11:55:05 4216 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-16 11:55:05 4216 [Note] InnoDB: Waiting for purge to start
+2018-09-16 11:55:05 4216 [Note] InnoDB: 5.7.23 started; log sequence number 1647356
+2018-09-16 11:55:05 3856 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-16 11:55:05 3856 [Note] InnoDB: Buffer pool(s) load completed at 180916 11:55:05
+2018-09-16 11:55:05 4216 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-16 11:55:06 4216 [Note] Server socket created on IP: '::'.
+2018-09-16 11:55:06 4216 [Note] Reading of all Master_info entries succeded
+2018-09-16 11:55:06 4216 [Note] Added new Master_info '' to hash table
+2018-09-16 11:55:06 4216 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-18 14:19:12 7216 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-18 14:19:12 7216 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-18 14:19:12 656 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-18 14:19:12 7216 [Note] InnoDB: Starting shutdown...
+2018-09-18 14:19:12 3856 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-18 14:19:12 3856 [Note] InnoDB: Buffer pool(s) dump completed at 180918 14:19:12
+2018-09-18 14:19:14 7216 [Note] InnoDB: Shutdown completed; log sequence number 1647384
+2018-09-18 14:19:14 7216 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-18 14:19:14 7216 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-18 14:19:44 4544 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-18 14:19:44 4544 [Note] InnoDB: Uses event mutexes
+2018-09-18 14:19:44 4544 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-18 14:19:44 4544 [Note] InnoDB: Number of pools: 1
+2018-09-18 14:19:44 4544 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-18 14:19:44 4544 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-18 14:19:44 4544 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-18 14:19:44 4544 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-18 14:19:45 4544 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-18 14:19:45 4544 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-18 14:19:45 4544 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-18 14:19:45 4544 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-18 14:19:45 4544 [Note] InnoDB: Waiting for purge to start
+2018-09-18 14:19:45 4544 [Note] InnoDB: 5.7.23 started; log sequence number 1647384
+2018-09-18 14:19:45 7516 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-18 14:19:45 7516 [Note] InnoDB: Buffer pool(s) load completed at 180918 14:19:45
+2018-09-18 14:19:45 4544 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-18 14:19:45 4544 [Note] Server socket created on IP: '::'.
+2018-09-18 14:19:45 4544 [Note] Reading of all Master_info entries succeded
+2018-09-18 14:19:45 4544 [Note] Added new Master_info '' to hash table
+2018-09-18 14:19:45 4544 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-18 18:06:54 7616 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-18 18:06:54 7616 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-18 18:06:54 7492 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-18 18:06:54 7616 [Note] InnoDB: Starting shutdown...
+2018-09-18 18:06:54 7516 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-18 18:06:54 7516 [Note] InnoDB: Buffer pool(s) dump completed at 180918 18:06:54
+2018-09-18 18:06:56 7616 [Note] InnoDB: Shutdown completed; log sequence number 1647412
+2018-09-18 18:06:56 7616 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-18 18:06:56 7616 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-18 21:24:37 4144 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-18 21:24:37 4144 [Note] InnoDB: Uses event mutexes
+2018-09-18 21:24:37 4144 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-18 21:24:37 4144 [Note] InnoDB: Number of pools: 1
+2018-09-18 21:24:37 4144 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-18 21:24:37 4144 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-18 21:24:37 4144 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-18 21:24:37 4144 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-18 21:24:37 4144 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-18 21:24:37 4144 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-18 21:24:37 4144 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-18 21:24:37 4144 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-18 21:24:37 4144 [Note] InnoDB: Waiting for purge to start
+2018-09-18 21:24:37 4144 [Note] InnoDB: 5.7.23 started; log sequence number 1647412
+2018-09-18 21:24:38 4860 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-18 21:24:38 4860 [Note] InnoDB: Buffer pool(s) load completed at 180918 21:24:38
+2018-09-18 21:24:38 4144 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-18 21:24:38 4144 [Note] Server socket created on IP: '::'.
+2018-09-18 21:24:38 4144 [Note] Reading of all Master_info entries succeded
+2018-09-18 21:24:38 4144 [Note] Added new Master_info '' to hash table
+2018-09-18 21:24:38 4144 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-18 23:01:36 4972 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-18 23:01:36 4972 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-18 23:01:36 4788 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-18 23:01:36 4972 [Note] InnoDB: Starting shutdown...
+2018-09-18 23:01:36 4860 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-18 23:01:36 4860 [Note] InnoDB: Buffer pool(s) dump completed at 180918 23:01:36
+2018-09-18 23:01:38 4972 [Note] InnoDB: Shutdown completed; log sequence number 1647440
+2018-09-18 23:01:38 4972 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-18 23:01:38 4972 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-19 21:02:16 4340 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-19 21:02:16 4340 [Note] InnoDB: Uses event mutexes
+2018-09-19 21:02:16 4340 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-19 21:02:16 4340 [Note] InnoDB: Number of pools: 1
+2018-09-19 21:02:16 4340 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-19 21:02:16 4340 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-19 21:02:16 4340 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-19 21:02:16 4340 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-19 21:02:17 4340 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-19 21:02:17 4340 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-19 21:02:17 4340 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-19 21:02:17 4340 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-19 21:02:17 4340 [Note] InnoDB: Waiting for purge to start
+2018-09-19 21:02:17 4340 [Note] InnoDB: 5.7.23 started; log sequence number 1647440
+2018-09-19 21:02:17 5248 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-19 21:02:17 5248 [Note] InnoDB: Buffer pool(s) load completed at 180919 21:02:17
+2018-09-19 21:02:17 4340 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-19 21:02:17 4340 [Note] Server socket created on IP: '::'.
+2018-09-19 21:02:17 4340 [Note] Reading of all Master_info entries succeded
+2018-09-19 21:02:17 4340 [Note] Added new Master_info '' to hash table
+2018-09-19 21:02:17 4340 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-19 22:58:41 5312 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-19 22:58:41 5312 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-19 22:58:41 5156 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-19 22:58:41 5312 [Note] InnoDB: Starting shutdown...
+2018-09-19 22:58:41 5248 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-19 22:58:41 5248 [Note] InnoDB: Buffer pool(s) dump completed at 180919 22:58:41
+2018-09-19 22:58:42 5312 [Note] InnoDB: Shutdown completed; log sequence number 1647468
+2018-09-19 22:58:42 5312 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-19 22:58:42 5312 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-20 13:45:06 4124 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-20 13:45:06 4124 [Note] InnoDB: Uses event mutexes
+2018-09-20 13:45:06 4124 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-20 13:45:06 4124 [Note] InnoDB: Number of pools: 1
+2018-09-20 13:45:06 4124 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-20 13:45:06 4124 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-20 13:45:06 4124 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-20 13:45:06 4124 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-20 13:45:06 4124 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-20 13:45:06 4124 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-20 13:45:06 4124 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-20 13:45:06 4124 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-20 13:45:06 4124 [Note] InnoDB: Waiting for purge to start
+2018-09-20 13:45:06 4124 [Note] InnoDB: 5.7.23 started; log sequence number 1647468
+2018-09-20 13:45:06 4900 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-20 13:45:06 4900 [Note] InnoDB: Buffer pool(s) load completed at 180920 13:45:06
+2018-09-20 13:45:06 4124 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-20 13:45:06 4124 [Note] Server socket created on IP: '::'.
+2018-09-20 13:45:07 4124 [Note] Reading of all Master_info entries succeded
+2018-09-20 13:45:07 4124 [Note] Added new Master_info '' to hash table
+2018-09-20 13:45:07 4124 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-20 16:13:51 4944 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-20 16:13:51 4944 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-20 16:13:51 4876 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-20 16:13:51 4944 [Note] InnoDB: Starting shutdown...
+2018-09-20 16:13:51 4900 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-20 16:13:51 4900 [Note] InnoDB: Buffer pool(s) dump completed at 180920 16:13:51
+2018-09-20 16:13:52 4944 [Note] InnoDB: Shutdown completed; log sequence number 1647496
+2018-09-20 16:13:52 4944 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-20 16:13:52 4944 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-20 20:30:54 4192 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-20 20:30:54 4192 [Note] InnoDB: Uses event mutexes
+2018-09-20 20:30:54 4192 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-20 20:30:54 4192 [Note] InnoDB: Number of pools: 1
+2018-09-20 20:30:54 4192 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-20 20:30:54 4192 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-20 20:30:54 4192 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-20 20:30:54 4192 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-20 20:30:54 4192 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-20 20:30:54 4192 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-20 20:30:54 4192 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-20 20:30:54 4192 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-20 20:30:54 4192 [Note] InnoDB: Waiting for purge to start
+2018-09-20 20:30:55 4192 [Note] InnoDB: 5.7.23 started; log sequence number 1647496
+2018-09-20 20:30:55 4988 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-20 20:30:55 4988 [Note] InnoDB: Buffer pool(s) load completed at 180920 20:30:55
+2018-09-20 20:30:55 4192 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-20 20:30:55 4192 [Note] Server socket created on IP: '::'.
+2018-09-20 20:30:55 4192 [Note] Reading of all Master_info entries succeded
+2018-09-20 20:30:55 4192 [Note] Added new Master_info '' to hash table
+2018-09-20 20:30:55 4192 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-20 22:25:07 5036 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-20 22:25:08 5036 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-20 22:25:08 4940 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-20 22:25:08 5036 [Note] InnoDB: Starting shutdown...
+2018-09-20 22:25:08 4988 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-20 22:25:08 4988 [Note] InnoDB: Buffer pool(s) dump completed at 180920 22:25:08
+2018-09-20 22:25:09 5036 [Note] InnoDB: Shutdown completed; log sequence number 1647524
+2018-09-20 22:25:09 5036 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-20 22:25:09 5036 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-21 15:16:10 4004 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-21 15:16:10 4004 [Note] InnoDB: Uses event mutexes
+2018-09-21 15:16:10 4004 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-21 15:16:10 4004 [Note] InnoDB: Number of pools: 1
+2018-09-21 15:16:10 4004 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-21 15:16:10 4004 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-21 15:16:11 4004 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-21 15:16:11 4004 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-21 15:16:11 4004 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-21 15:16:11 4004 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-21 15:16:11 4004 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-21 15:16:11 4004 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-21 15:16:11 4004 [Note] InnoDB: Waiting for purge to start
+2018-09-21 15:16:11 4004 [Note] InnoDB: 5.7.23 started; log sequence number 1647524
+2018-09-21 15:16:11 6080 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-21 15:16:11 6080 [Note] InnoDB: Buffer pool(s) load completed at 180921 15:16:11
+2018-09-21 15:16:11 4004 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-21 15:16:12 4004 [Note] Server socket created on IP: '::'.
+2018-09-21 15:16:12 4004 [Note] Reading of all Master_info entries succeded
+2018-09-21 15:16:12 4004 [Note] Added new Master_info '' to hash table
+2018-09-21 15:16:12 4004 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-21 16:15:55 7372 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-21 16:15:55 7372 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-21 16:15:55 7112 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-21 16:15:55 7372 [Note] InnoDB: Starting shutdown...
+2018-09-21 16:15:55 6080 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-21 16:15:55 6080 [Note] InnoDB: Buffer pool(s) dump completed at 180921 16:15:55
+2018-09-21 16:15:56 7372 [Note] InnoDB: Shutdown completed; log sequence number 1647552
+2018-09-21 16:15:56 7372 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-21 16:15:56 7372 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-21 16:32:16 4204 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-21 16:32:16 4204 [Note] InnoDB: Uses event mutexes
+2018-09-21 16:32:16 4204 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-21 16:32:16 4204 [Note] InnoDB: Number of pools: 1
+2018-09-21 16:32:16 4204 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-21 16:32:16 4204 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-21 16:32:16 4204 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-21 16:32:16 4204 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-21 16:32:17 4204 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-21 16:32:17 4204 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-21 16:32:17 4204 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-21 16:32:17 4204 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-21 16:32:17 4204 [Note] InnoDB: Waiting for purge to start
+2018-09-21 16:32:17 4204 [Note] InnoDB: 5.7.23 started; log sequence number 1647552
+2018-09-21 16:32:17 7572 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-21 16:32:17 7572 [Note] InnoDB: Buffer pool(s) load completed at 180921 16:32:17
+2018-09-21 16:32:17 4204 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-21 16:32:17 4204 [Note] Server socket created on IP: '::'.
+2018-09-21 16:32:17 4204 [Note] Reading of all Master_info entries succeded
+2018-09-21 16:32:17 4204 [Note] Added new Master_info '' to hash table
+2018-09-21 16:32:17 4204 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-21 17:04:43 7692 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-21 17:04:43 7692 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-21 17:04:43 7524 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-21 17:04:44 7692 [Note] InnoDB: Starting shutdown...
+2018-09-21 17:04:44 7572 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-21 17:04:44 7572 [Note] InnoDB: Buffer pool(s) dump completed at 180921 17:04:44
+2018-09-21 17:04:45 7692 [Note] InnoDB: Shutdown completed; log sequence number 1647580
+2018-09-21 17:04:45 7692 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-21 17:04:45 7692 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-21 21:34:26 4220 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-21 21:34:26 4220 [Note] InnoDB: Uses event mutexes
+2018-09-21 21:34:26 4220 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-21 21:34:26 4220 [Note] InnoDB: Number of pools: 1
+2018-09-21 21:34:26 4220 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-21 21:34:26 4220 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-21 21:34:26 4220 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-21 21:34:26 4220 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-21 21:34:27 4220 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-21 21:34:27 4220 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-21 21:34:27 4220 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-21 21:34:27 4220 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-21 21:34:27 4220 [Note] InnoDB: Waiting for purge to start
+2018-09-21 21:34:27 4220 [Note] InnoDB: 5.7.23 started; log sequence number 1647580
+2018-09-21 21:34:27 4996 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-21 21:34:27 4996 [Note] InnoDB: Buffer pool(s) load completed at 180921 21:34:27
+2018-09-21 21:34:27 4220 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-21 21:34:27 4220 [Note] Server socket created on IP: '::'.
+2018-09-21 21:34:27 4220 [Note] Reading of all Master_info entries succeded
+2018-09-21 21:34:27 4220 [Note] Added new Master_info '' to hash table
+2018-09-21 21:34:27 4220 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-22 19:10:58 5076 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-22 19:10:58 5076 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-22 19:10:58 4948 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-22 19:10:58 5076 [Note] InnoDB: Starting shutdown...
+2018-09-22 19:10:58 4996 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-22 19:10:58 4996 [Note] InnoDB: Buffer pool(s) dump completed at 180922 19:10:58
+2018-09-22 19:10:58 5076 [Note] InnoDB: Shutdown completed; log sequence number 1647608
+2018-09-22 19:10:58 5076 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-22 19:10:58 5076 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-22 19:33:29 4260 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-22 19:33:29 4260 [Note] InnoDB: Uses event mutexes
+2018-09-22 19:33:29 4260 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-22 19:33:29 4260 [Note] InnoDB: Number of pools: 1
+2018-09-22 19:33:29 4260 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-22 19:33:29 4260 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-22 19:33:29 4260 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-22 19:33:29 4260 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-22 19:33:29 4260 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-22 19:33:29 4260 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-22 19:33:29 4260 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-22 19:33:29 4260 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-22 19:33:29 4260 [Note] InnoDB: Waiting for purge to start
+2018-09-22 19:33:29 4260 [Note] InnoDB: 5.7.23 started; log sequence number 1647608
+2018-09-22 19:33:29 7320 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-22 19:33:30 7320 [Note] InnoDB: Buffer pool(s) load completed at 180922 19:33:30
+2018-09-22 19:33:30 4260 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-22 19:33:30 4260 [Note] Server socket created on IP: '::'.
+2018-09-22 19:33:30 4260 [Note] Reading of all Master_info entries succeded
+2018-09-22 19:33:30 4260 [Note] Added new Master_info '' to hash table
+2018-09-22 19:33:30 4260 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-27 16:46:00 7464 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-27 16:46:00 7464 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-27 16:46:00 7260 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-27 16:46:00 7464 [Note] InnoDB: Starting shutdown...
+2018-09-27 16:46:00 7320 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-27 16:46:00 7320 [Note] InnoDB: Buffer pool(s) dump completed at 180927 16:46:00
+2018-09-27 16:46:01 7464 [Note] InnoDB: Shutdown completed; log sequence number 1647661
+2018-09-27 16:46:01 7464 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-27 16:46:01 7464 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-27 18:56:38 4236 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-27 18:56:38 4236 [Note] InnoDB: Uses event mutexes
+2018-09-27 18:56:38 4236 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-27 18:56:38 4236 [Note] InnoDB: Number of pools: 1
+2018-09-27 18:56:38 4236 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-27 18:56:38 4236 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-27 18:56:38 4236 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-27 18:56:38 4236 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-27 18:56:39 4236 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-27 18:56:39 4236 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-27 18:56:39 4236 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-27 18:56:39 4236 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-27 18:56:39 4236 [Note] InnoDB: Waiting for purge to start
+2018-09-27 18:56:39 4236 [Note] InnoDB: 5.7.23 started; log sequence number 1647661
+2018-09-27 18:56:39 6644 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-27 18:56:39 6644 [Note] InnoDB: Buffer pool(s) load completed at 180927 18:56:39
+2018-09-27 18:56:39 4236 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-27 18:56:39 4236 [Note] Server socket created on IP: '::'.
+2018-09-27 18:56:40 4236 [Note] Reading of all Master_info entries succeded
+2018-09-27 18:56:40 4236 [Note] Added new Master_info '' to hash table
+2018-09-27 18:56:40 4236 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.17-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-27 19:03:49 6700 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2018-09-27 19:04:29 6700 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2018-09-27 19:04:38 6700 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2018-09-27 19:18:23 7128 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2018-09-27 19:18:23 7128 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-27 19:18:23 6604 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-27 19:18:23 7128 [Note] InnoDB: Starting shutdown...
+2018-09-27 19:18:23 6644 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-27 19:18:23 6644 [Note] InnoDB: Buffer pool(s) dump completed at 180927 19:18:23
+2018-09-27 19:18:24 7128 [Note] InnoDB: Shutdown completed; log sequence number 1647689
+2018-09-27 19:18:24 7128 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-27 19:18:24 7128 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2018-09-27 19:18:34 1032 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-09-27 19:18:34 1032 [Note] InnoDB: Uses event mutexes
+2018-09-27 19:18:34 1032 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-09-27 19:18:34 1032 [Note] InnoDB: Number of pools: 1
+2018-09-27 19:18:34 1032 [Note] InnoDB: Using SSE2 crc32 instructions
+2018-09-27 19:18:34 1032 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2018-09-27 19:18:34 1032 [Note] InnoDB: Completed initialization of buffer pool
+2018-09-27 19:18:34 1032 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-09-27 19:18:34 1032 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2018-09-27 19:18:34 1032 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-09-27 19:18:34 1032 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-09-27 19:18:34 1032 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-09-27 19:18:34 1032 [Note] InnoDB: 5.7.23 started; log sequence number 1647689
+2018-09-27 19:18:34 1740 [Note] InnoDB: Loading buffer pool(s) from C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-27 19:18:34 1740 [Note] InnoDB: Buffer pool(s) load completed at 180927 19:18:34
+2018-09-27 19:18:34 1032 [Note] Plugin 'FEEDBACK' is disabled.
+2018-09-27 19:18:34 1032 [Note] Server socket created on IP: '::'.
+2018-09-27 19:18:34 1032 [Note] Reading of all Master_info entries succeded
+2018-09-27 19:18:34 1032 [Note] Added new Master_info '' to hash table
+2018-09-27 19:18:34 1032 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.18-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-09-27 19:29:05 9376 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2018-09-27 19:33:33 9516 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe (initiated by: root[root] @ localhost [::1]): Normal shutdown
+2018-09-27 19:33:33 1800 [Note] InnoDB: FTS optimize thread exiting.
+2018-09-27 19:33:33 9516 [Note] Event Scheduler: Purging the queue. 0 events
+2018-09-27 19:33:33 9516 [Note] InnoDB: Starting shutdown...
+2018-09-27 19:33:33 1740 [Note] InnoDB: Dumping buffer pool(s) to C:\bestfood\MariaDB 10.2\data\ib_buffer_pool
+2018-09-27 19:33:33 1740 [Note] InnoDB: Buffer pool(s) dump completed at 180927 19:33:33
+2018-09-27 19:33:34 9516 [Note] InnoDB: Shutdown completed; log sequence number 1647717
+2018-09-27 19:33:34 9516 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-09-27 19:33:34 9516 [Note] C:\bestfood\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
