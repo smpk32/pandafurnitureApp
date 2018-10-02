@@ -104,15 +104,19 @@
 
     <string name="bestfood_register">맛집 등록</string>
 
-    <string name="input_bestfood_name">음식점이름을 입력해주세요</string>
+    <string name="input_pandafurniture_name">가구 이름을 입력해주세요</string>
 
-    <string name="input_bestfood_address">주소를 입력해주세요</string>
+    <string name="input_pandafurniture_kinds">거래 유형을 입력해주세요</string>
 
-    <string name="input_bestfood_tel">전화번호를 입력해주세요</string>
+    <string name="input_pandafurniture_when">구입 시기를 입력해주세요</string>
 
-    <string name="input_bestfood_description">설명을 입력해주세요</string>
+    <string name="input_pandafurniture_status">가구 상태를 입력해주세요</string>
 
-    <string name="input_bestfood_image_memo">이미지 설명을 입력해주세요(생략가능)</string>
+    <string name="input_pandafurniture_tel">판매자 전화번호를 입력해주세요</string>
+
+    <string name="input_pandafurniture_description">부가 설명을 입력해주세요</string>
+
+    <string name="input_pandafurniture_image_memo">이미지 설명을 입력해주세요(생략가능)</string>
 
     <string name="input_text_length">글자수 :</string>
 
@@ -178,6 +182,8 @@
     <string name="loading">잠시만 기다려주세요</string>
 
     <string name="loading_not">잠시후에 다시 시도해주세요</string>
+
+
 
     <!-- 즐겨찾기 -->
 
