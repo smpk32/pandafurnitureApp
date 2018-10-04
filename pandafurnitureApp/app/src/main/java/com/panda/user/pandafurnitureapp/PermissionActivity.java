@@ -40,7 +40,8 @@ public class PermissionActivity extends AppCompatActivity {
         String [] permissions = new String[]{
                 Manifest.permission.CAMERA,
                 Manifest.permission.READ_PHONE_STATE,
-                Manifest.permission.ACCESS_FINE_LOCATION
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.INTERNET
         };
 
         List<String> listPermissionsNeeded = new ArrayList<>();

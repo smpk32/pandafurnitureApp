@@ -198,8 +198,8 @@ public class PandaFurnitureRegisterInputFragment extends Fragment implements Vie
 
 
     private void goNextPage() {
-        GoLib.getInstance().goFragmentBack(getFragmentManager(),
-                R.id.content_main, PandaFurnitureRegisterImageFragment.newInstance(infoItem.seq));
+//        GoLib.getInstance().goFragmentBack(getFragmentManager(),
+//                R.id.content_main, PandaFurnitureRegisterImageFragment.newInstance(infoItem.seq));
     }
 
 

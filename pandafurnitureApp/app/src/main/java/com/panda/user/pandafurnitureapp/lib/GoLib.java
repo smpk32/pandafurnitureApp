@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
-
+import com.panda.user.pandafurnitureapp.ProfileActivity;
 
 
 /**
@@ -66,11 +66,11 @@ public class GoLib {
      * @param context 컨텍스트
      */
 
-//    public void goProfileActivity(Context context) {
-//        Intent intent = new Intent(context, ProfileActivity.class);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        context.startActivity(intent);
-//    }
+    public void goProfileActivity(Context context) {
+        Intent intent = new Intent(context, ProfileActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
+    }
 
     /**
      * 맛집 정보 등록 액티비티를 실행한다.
